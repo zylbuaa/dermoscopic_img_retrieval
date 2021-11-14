@@ -1,1 +1,1 @@
-# Dermoscopic_Img_Retrieval
+# dermoscopic_img_retrieval
