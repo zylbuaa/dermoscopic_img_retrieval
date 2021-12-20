@@ -1,6 +1,6 @@
 # dermoscopic_img_retrieval
-This is the implementation of *[Dermoscopic image retrieval based on rotation-invariance deep hashing] (https://doi.org/10.1016/j.media.2021.102301)*.<br />
-The code will be optimized and uploaded soon.<br />
+This is the implementation of *[Dermoscopic image retrieval based on rotation-invariance deep hashing](https://doi.org/10.1016/j.media.2021.102301)*.<br />
+More complete code will be uploaded soon.<br />
 ## Citation
 Please cite our paper in your publications if our work helps your research. BibTeX reference is as follows.<br />
 
