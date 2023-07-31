@@ -43,15 +43,15 @@ args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 '''build a logger of testing process and show it'''
-testLogPath="/"
+testLogPath = "/"
 File=open(testLogPath+'TestingLog.txt','w')
 
 '''get filename path list of training data and test data'''
-trainDataFilenamePath="/"
-testDataFilenamePath="/"
+trainDataFilenamePath = "/"
+testDataFilenamePath = "/"
 
-trainDataFilename=open(trainDataFilenamePath)
-trainDataFilenameList=[]
+trainDataFilename = open(trainDataFilenamePath)
+trainDataFilenameList = []
 for line in trainDataFilename:
     trainDataFilenameList.append(line.rstrip('\n'))
 print('number of training samples:',len(trainDataFilenameList))
@@ -125,8 +125,8 @@ testData = data.DataLoader(testDataLoader(dataFilenameList=testDataFilenameList,
 
 '''build hashtable & continuous feature database'''
 print('Build hashtable and continuous feature database...')
-hashTable={}
-featureDatabase={}
+hashTable = {}
+featureDatabase = {}
 
 # 0.5 for deephash, 0.0 for others
 threshhold = 0.5

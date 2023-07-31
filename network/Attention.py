@@ -39,9 +39,9 @@ class HDCSA(nn.Module):
 
         avg_out=torch.mean(in_tensor,dim=1,keepdim=True) # mean pooling
 
-        max_out, _ =torch.max(in_tensor,dim=1,keepdim=True) # max pooling
+        max_out, _ = torch.max(in_tensor,dim=1,keepdim=True) # max pooling
 
-        x=torch.cat([avg_out,max_out,MS],dim=1)
+        x = torch.cat([avg_out,max_out,MS],dim=1)
         x = self.conv1(x)
 
         return self.sigmoid(x)
