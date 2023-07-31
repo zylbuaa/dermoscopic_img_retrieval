@@ -2,7 +2,7 @@
 
 <h1>ECL: Class-Enhancement Contrastive Learning for Long-tailed Skin Lesion Classification</h1>
 
-![](https://komarev.com/ghpvc/?username=zylbuaadermoscopic_img_retrieval&label=visitors)
+
 ![GitHub stars](https://badgen.net/github/stars/zylbuaa/dermoscopic_img_retrieval)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
