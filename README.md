@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>ECL: Class-Enhancement Contrastive Learning for Long-tailed Skin Lesion Classification</h1>
+<h1>Dermoscopic image retrieval based on rotation-invariance deep hashing</h1>
 
 
 ![GitHub stars](https://badgen.net/github/stars/zylbuaa/dermoscopic_img_retrieval)
